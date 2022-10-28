@@ -24,22 +24,29 @@ textarea{
 .description{
   white-space: pre-wrap;
 }
-
 .time-block{
   text-align: center;
   border-radius: 15px;
+  height: 70px;
+  width: auto;
+  border:none;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  margin: 0px;
+  padding:0px;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  height:70px;
+  width: 100px;
+  text-align: center;
 }
 
 .past {
@@ -63,6 +70,8 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  height: 80px;
+  width: 75px;
 }
 
 .saveBtn i:hover {
